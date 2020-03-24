@@ -2,7 +2,7 @@
 
 Instructor: Charlie Roberts w/ Ralph Sutter(IMGD 4500)
 
-IMGD 4000 will expose students to concepts related to technical development using game engines. Game engines are used in a variety of fields ranging from games, to medical simmulations, to architecture, and are an important part of any developer's toolbox, regardles of whether or not a developer is working on a "game". 
+IMGD 4000 will expose students to concepts related to technical development using game engines. Game engines are used in a variety of fields ranging from games, to medical simulations, to architecture, and are an important part of any developer's toolbox, regardles of whether or not a developer is working on a "game". 
 
 Some topics discussed in this course include:
 
