@@ -2,13 +2,13 @@
 
 Instructor: Charlie Roberts w/ Ralph Sutter(IMGD 4500)
 
-IMGD 4000 will expose students to concepts related to technical development using game engines. Game engines are used in a variety of fields ranging from games, to medical simmulations, to architecture, and are an important part of any developer's toolbox, regardles of whether or not a developer is working on a "game". 
+IMGD 4000 will expose students to concepts related to technical development using game engines. Game engines are used in a variety of fields ranging from games, to medical simulations, to architecture, and are an important part of any developer's toolbox, regardles of whether or not a developer is working on a "game". 
 
 Some topics discussed in this course include:
 
-- Modern game development engines (primarily Unreal) and game engine concepts
-- Game-specific algorithms (path finding, agent-based AI etc.)
-- Source control / asset management for game engines
+- Modern game development engines (primarily Unreal) and game engine concepts  
+- Game-specific algorithms (path finding, agent-based AI etc.)  
+- Source control / asset management for game engines  
 
 ## Learning in the time of COVID-19
 Your first priority in this difficult time should be taking care of yourself, your family, and limiting your risk of contracting / spreading COVID-19. All individual assignments in this class will come with a recommneded due date that is intended to help keep you on track, *but you are free to turn them in at any point in the course*. Group assignments will have somewhat stricter deadlines to try and keep projects on track.
@@ -25,16 +25,16 @@ While there are no formal prerequisites for taking this course, students will id
 Students will work in teams in combination with members of IMGD 4500 (Aristic Game Development II) to create an interactive experience in Unreal; this project will account for the bulk of your grade. There will also be two separate assignments using Unreal that will be completed indvidually; these are designed to ensure that every member of the class has fundamental competency using the Unreal Engine.
 
 ### Assignments (30% Total)
-Assignment 1: Agent-based simulation - 15%
-Assignment 2: Pathfinding - 15%
+Assignment 1: Agent-based simulation - 15%  
+Assignment 2: Pathfinding - 15%  
 
 ### Final Group Project (70% Total)
-Initial Design Document - 5%
-Website for project - 5%
-Midterm Code Review - 5%
-Alpha Presentation - 20%
-Beta Presentation - 20%
-Final Portfolio Submission - 15%
+Initial Design Document - 5%  
+Website for project - 5%  
+Midterm Code Review - 5%  
+Alpha Presentation - 20%  
+Beta Presentation - 20%  
+Final Portfolio Submission - 15%  
 
 ## Final Project
 The final project will be an interactive experience created using Unreal, primarily coded in C++ (although some Blueprints will also be used). Students will work in teams of four developers + two artists on this project, and, generally speaking, the final grade for the project will be shared by all team members.
@@ -49,4 +49,4 @@ Documentation should consist of:
 
 ## Academic Integrity
 
-The goal of this class is to both create aesthetically interesting content and understand the code used to create it. In order to understand the code and Unreal more generally, you need to author it yourself; this is particularly the goal of the two individual assignments. That said, There are many ways in which you can assist others without giving them code and answers. Providing low-level implemetation details (small code fragments that contribute to, but don't complete on their own, major portions of assignments) is welcomed.
+The goal of this class is to both create aesthetically interesting content and understand the code used to create it. In order to understand the code and Unreal more generally, you need to author it yourself; this is particularly the goal of the two individual assignments. That said, there are many ways in which you can assist others without giving them all required code for an assignment. Providing low-level implemetation details (small code fragments that contribute to, but don't complete on their own, major portions of assignments) is welcomed.
