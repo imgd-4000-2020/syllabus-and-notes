@@ -1,5 +1,5 @@
 # Alpha Presentation and Release – Wednesday, April 22nd 
-* Development Progress Report Due on Wednesday, April 15th *
+*Development Progress Report Due on Wednesday, April 15th*
 
 The Alpha presentations will be held via Zoom. Every team will give a short (~8 minute) presentation, which includes a demonstration that starts by visiting their website and clicking on the download link to your executable to show that your game is downloadable and playable. Make sure you test this ahead of time!
 
