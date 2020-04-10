@@ -6,14 +6,14 @@ While versioning text is a (somewhat) solved problem, versioning binary files is
 The two we’ll discuss in this class are Git (with the git-lfs extension) and Perforce. There are good reasons for choosing both, the list below is by no means to be considered comprehensive. If this influences your decision at all, I will be more useful as a resource for Git than Perforce… long live open-source software!
 
 ### Pros for Git
-• **It’s open source and free to use**. Anyone can setup their own git server, although companies like GitHub, BitBucket, and Assembla have made this largely unnecessary.
-• Widely used across multiple industries and academic fields.
-• Distributed repositories by default.
+• **It’s open source and free to use**. Anyone can setup their own git server, although companies like GitHub, BitBucket, and Assembla have made this largely unnecessary.  
+• Widely used across multiple industries and academic fields.  
+• Distributed repositories by default.  
 
 ### Pros for Perforce (aka HelixCore, because, marketing I guess)
-• Widely used at AAA studios. Because Perforce got a jump on handling binary files in a reasonable way, it quickly gained mindshare among game studios. 
-• Centralized repository by default. Helps to keep everything in sync. You can also create a personal server for local commits.
-• Game Editor (Unreal, Unity etc.) support is typically a bit more robust than it is for Git.
+• Widely used at AAA studios. Because Perforce got a jump on handling binary files in a reasonable way, it quickly gained mindshare among game studios.   
+• Centralized repository by default. Helps to keep everything in sync. You can also create a personal server for local commits.  
+• Game Editor (Unreal, Unity etc.) support is typically a bit more robust than it is for Git.  
 
 Here’s [a very biased (and there’s some actual misinformation in there) comparison from Perforce](https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both)
 
@@ -30,9 +30,7 @@ WPI has a Perforce server that you may use for your group projects and/or indivi
 
 Perforce organizes files into **depots** (not repos). A depot is a location on a central server where the “master” version of each file is held and versioned. A **workspace** is where your local copies of the files in a depot are held… this is where your project will go on your personal computer. Note that this distinction is a very different model than Git, in which there are simply copies of repositories that point to each other in different ways.
 
-2. Open the P4V application and choose Connection > Open Connection from the main menubar. In the resulting pop-up, enter the url:port of the server and your user name. If you don’t already have a workspace created, make a new one now from the same menu in a directory of your choosing. Hit OK.
-
-In the main P4V view you should now be able to see both your Depot(s) and your Workspace(s). 
+2. Open the P4V application and choose Connection > Open Connection from the main menubar. In the resulting pop-up, enter the url:port of the server and your user name. If you don’t already have a workspace created, make a new one now from the same menu in a directory of your choosing. Hit OK. In the main P4V view you should now be able to see both your Depot(s) and your Workspace(s). 
 
 3. Make your new Unreal project (preferred) or move your existing Unreal project (headaches are coming your way) inside of your new workspace. YOUR PROJECT FOLDER SHOULD MATCH THE NAME OF YOUR DEPOT ON THE WPI PERFORCE SERVER.
 
