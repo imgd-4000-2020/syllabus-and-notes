@@ -6,20 +6,20 @@ While versioning text is a (somewhat) solved problem, versioning binary files is
 The two we’ll discuss in this class are Git (with the git-lfs extension) and Perforce. There are good reasons for choosing both, and the list below is by no means to be considered comprehensive. If this influences your decision at all, I will be more useful as a resource for Git than Perforce… long live open-source software!
 
 ### Pros for Git
-• **It’s open source and free to use**. Anyone can setup their own git server, although companies like GitHub, BitBucket, and Assembla have made this largely unnecessary.
-• Widely used across multiple industries and academic fields.
-• Distributed repositories by default.
+• **It’s open source and free to use**. Anyone can setup their own git server, although companies like GitHub, BitBucket, and Assembla have made this largely unnecessary.  
+• Widely used across multiple industries and academic fields.  
+• Distributed repositories by default.  
 
 ### Pros for Perforce (aka HelixCore, because, marketing I guess)
-• Widely used at AAA studios. Because Perforce got a jump on handling binary files in a reasonable way, it quickly gained mindshare in game studios. 
-• Centralized repository by default. Helps to keep everything in sync. You can also create a personal server for local commits.
-• Game Editor (Unreal, Unity etc.) support is typically a bit more robust than it is for Git.
+• Widely used at AAA studios. Because Perforce got a jump on handling binary files in a reasonable way, it quickly gained mindshare in game studios.  
+• Centralized repository by default. Helps to keep everything in sync. You can also create a personal server for local commits.  
+• Game Editor (Unreal, Unity etc.) support is typically a bit more robust than it is for Git.  
 
 Here’s [a very biased (and there’s some actual misinformation in there) comparison from Perforce](https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both)
 
 ## A couple of myths I’ve heard
-• **Git can’t do binary files**. I suppose that technically this is true, but the [git-lfs extension handles this](http://git-lfs.github.com/) and is fairly mature and easy to install/use at this point.
-• **Git can’t lock files.** [git-lfs locks files quite easily](https://github.com/git-lfs/git-lfs/wiki/File-Locking) 
+• **Git can’t do binary files**. I suppose that technically this is true, but the [git-lfs extension handles this](http://git-lfs.github.com/) and is fairly mature and easy to install/use at this point.  
+• **Git can’t lock files.** [git-lfs locks files quite easily](https://github.com/git-lfs/git-lfs/wiki/File-Locking)  
 
 You should try to use both in this class, so that you can knowledgeably compare them. If you’re using Perforce for your group project, make sure to use Git for at least one of your assignments, and vice-versa. If you need a personal depot created on WPI’s Perforce server for an assignment just send me a DM on the course Slack with the proposed name of the depot.
 
