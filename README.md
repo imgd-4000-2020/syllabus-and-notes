@@ -25,11 +25,14 @@ While there are no formal prerequisites for taking this course, students will id
 Students will work in teams in combination with members of IMGD 4500 (Aristic Game Development II) to create an interactive experience in Unreal; this project will account for the bulk of your grade. There will also be two separate assignments using Unreal that will be completed indvidually; these are designed to ensure that every member of the class has fundamental competency using the Unreal Engine.
 
 ### Assignments (30% Total)
-Choose two of the following:  
+For the additional assignments in this class, you must complete one of the two programming assignments (Agent-based simulation or Pathfinding / A*) and then one other choice from the followinig list:  
+
 Assignment 1: Agent-based simulation - 15%  
 Assignment 2: Pathfinding - 15%  
 Final Project Portfolio - 15%  
 In-class tutorial - 15%  
+
+If you'd like to focus on C++ in Unreal, completing both programming assignments is great!
 
 ### Final Group Project (55% Total)
 Initial Design Document - 5%  
