@@ -16,6 +16,11 @@ With that architecture, we’re only looking at implementing two classes and add
 Our `GameModeBase` subclass is basically running the show. Let’s setup its header file as follows:
 
 ```c++
+#include "CoreMinimal.h"
+#include "GameFramework/GameModeBase.h"
+#include "FlockingManager.h"
+#include "FlockingGameModeBase.generated.h"
+
 UCLASS()
 class FLOCKING_API AFlockingGameModeBase : public AGameModeBase
 {
@@ -25,7 +30,7 @@ class FLOCKING_API AFlockingGameModeBase : public AGameModeBase
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent * Mesh;
 
-	class UFlockingManager *Manager;
+	UPROPERTY() UFlockingManager *Manager;
 
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
@@ -38,7 +43,6 @@ Let’s change over to our game mode’s C++ file.  First, the constructor and i
 
 ```c++
 #include "FlockingGameModeBase.h"
-#include "FlockingManager.h"
 
 AFlockingGameModeBase::AFlockingGameModeBase() {
     AgentMesh = CreateDefaultSubobject<UStaticMeshComponent>("AgentMesh");
