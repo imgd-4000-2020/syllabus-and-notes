@@ -28,7 +28,7 @@ class FLOCKING_API AFlockingGameModeBase : public AGameModeBase
 	AFlockingGameModeBase();
 
 	UPROPERTY(EditAnywhere)
-	class UStaticMeshComponent * Mesh;
+	class UStaticMeshComponent * AgentMesh;
 
 	UPROPERTY() UFlockingManager *Manager;
 
